@@ -1,0 +1,2 @@
+to remove or clear all elements in list we use the function Clear()
+list.Clear()
