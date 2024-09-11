@@ -94,8 +94,12 @@ namespace ConsoleApp1
                             else
                             {
                                 double average = 0;
-                                foreach (int i in list) { average += i; }
-                                Console.WriteLine($"The mean of the elements in the list =  {average}");
+                                double sum = 0;
+
+                                foreach (int i in list) { sum += i; }
+                                average = sum / list.Count();
+
+                                Console.WriteLine($"The mean of the elements in the list =  {average }");
                             }
 
                             break;
